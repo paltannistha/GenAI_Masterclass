@@ -23,20 +23,54 @@ A **prompt** is the input you give to an AI model.
 
 ---
 
-## 🧠 Types of Prompts
+# 🧠 Types of Prompts in GenAI
 
-### 1. Simple Prompt
-Write a poem on nature
+## 📌 Overview
+Prompts are the inputs given to a Generative AI model.  
+Different types of prompts help guide the AI to produce **more accurate and useful outputs**.
 
-### 2. Instruction-based Prompt
-Explain cloud computing in 5 bullet points
 
-### 3. Role-based Prompt
-You are a teacher. Explain AI to a 10-year-old.
+---
 
-### 4. Context-based Prompt
-I am preparing for an interview. Explain REST APIs simply.
+## ✨ 1. Simple Prompt
+A basic instruction without much detail.
 
+### Example:
+**Write a poem on nature**
+
+👉 Used for general or creative tasks.
+
+---
+
+## 📋 2. Instruction-based Prompt
+A clear instruction with a specific format or requirement.
+
+### Example:
+**Explain cloud computing in 5 bullet points**
+
+👉 Helps control the **structure of the output**.
+
+---
+
+## 🎭 3. Role-based Prompt
+Assigns a role to the AI to shape the response style.
+
+### Example:
+**You are a teacher. Explain AI to a 10-year-old.**
+
+👉 Improves **tone, clarity, and audience targeting**.
+
+---
+
+## 📚 4. Context-based Prompt
+Provides background information before asking the question.
+
+### Example:
+**I am preparing for an interview. Explain REST APIs simply.**
+
+👉 Produces **more relevant and personalized answers**.
+
+---
 
 👉 **Key Idea:** More clarity = better output
 
@@ -46,11 +80,11 @@ I am preparing for an interview. Explain REST APIs simply.
 
 ### Task 1: Improve Output
 
-Basic Prompt:
+**Basic Prompt:**
 
 Tell me about Python
 
-Improved Prompt:
+**Improved Prompt:**
 
 Explain Python in 5 points with real-life examples
 
@@ -104,6 +138,8 @@ best = choose_best(results)
 
 # Step 4: Output
 print(best)
+
+```
 
 👉 **Agents can perform actions, not just generate text.**
 
