@@ -1,7 +1,7 @@
 from groq import Groq
 
 # 👉 Replace with your actual API key
-client = Groq(api_key="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")
+client = Groq(api_key="YOUR API Key")
 
 # Store conversation (memory)
 messages = [
